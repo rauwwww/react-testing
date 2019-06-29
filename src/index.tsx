@@ -1,8 +1,15 @@
+// tslint:disable-next-line:no-import-side-effect
+import '@babel/polyfill';
+// tslint:disable-next-line:no-import-side-effect
+import 'tslib';
+// tslint:disable-next-line:no-import-side-effect
+import './index.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
 import * as serviceWorker from './serviceWorker';
+import App from './App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
