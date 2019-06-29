@@ -16,6 +16,7 @@
     "@types/redux-saga": "^0.10.5",
     "@types/redux-thunk": "^2.1.0",
     "@types/reselect": "^2.2.0",
+    "axios": "^0.19.0",
     "babel-polyfill": "^6.26.0",
     "cuid": "^2.1.6",
     "prop-types": "^15.7.2",

@@ -14,7 +14,7 @@ export type UsersAction = ActionType<typeof user>;
 export default combineReducers<UsersState, UsersAction>({
     user: (state = [], action) => {
         switch (action.type) {
-            case getType(user.add):
+            case getType(user.addUser):
                 return [...state, action.payload];
             default:
                 return state;
